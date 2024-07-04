@@ -1,0 +1,227 @@
+.logo-1-icon1 {
+  height: 75.8px;
+  width: 75.1px;
+  position: relative;
+  object-fit: cover;
+}
+.logo-image {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 27px;
+}
+.pulsenets-icon1 {
+  align-self: stretch;
+  height: 22.1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logo-parent1,
+.logo1 {
+  display: flex;
+  align-items: flex-start;
+}
+.logo1 {
+  width: 143px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 1px 5.5px 2px;
+  box-sizing: border-box;
+  gap: 5.6px;
+}
+.logo-parent1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px;
+}
+.link-compatibility {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 99px;
+}
+.setup-guides {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+}
+.link-set {
+  width: 150.5px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.link-set1 {
+  position: relative;
+  line-height: 22px;
+}
+.setup-guides1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+}
+.link-terms {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 96px;
+  text-decoration: none;
+  color: #1c1c1c;
+}
+.setup-guides2,
+.setup-links {
+  display: flex;
+  align-items: flex-start;
+}
+.setup-guides2 {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+}
+.setup-links {
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+.link-contact,
+.link-cookie,
+.link-faq1,
+.link-privacy {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 100px;
+  text-decoration: none;
+  color: #1c1c1c;
+}
+.link-contact,
+.link-cookie,
+.link-faq1 {
+  min-width: 99px;
+  text-decoration: none;
+  color: #1c1c1c;
+}
+.link-contact,
+.link-faq1 {
+  min-width: 84px;
+}
+.link-faq1 {
+  min-width: 30px;
+}
+.legal-links,
+.nav,
+.policy-links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.policy-links {
+  width: 403px;
+  justify-content: space-between;
+  gap: 20px;
+}
+.legal-links,
+.nav {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 28px 0 20px;
+  box-sizing: border-box;
+}
+.nav {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 5px 12px 18px;
+  gap: 10px;
+}
+.link-partner-banner-black-v1 {
+  height: 17.8px;
+  width: 222.9px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.partner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 0 21px;
+}
+.pulsenets-mobile {
+  position: relative;
+  line-height: 22px;
+}
+.copyright {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+  color: #555e72;
+}
+.banner {
+  width: 640px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 0.1px;
+  box-sizing: border-box;
+  gap: 24px;
+  max-width: 100%;
+}
+.bannermask-group,
+.footer-desktop {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.bannermask-group {
+  flex: 1;
+  background-color: #fff;
+  justify-content: center;
+  padding: 83px 20px 83.5px;
+  box-sizing: border-box;
+}
+.footer-desktop {
+  align-self: stretch;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: 16px;
+  color: #3f4655;
+  font-family: Manrope;
+}
+@media screen and (max-width: 925px) {
+  .policy-links,
+  .setup-links {
+    flex-wrap: wrap;
+  }
+  .footer-desktop {
+    gap: 24px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bannermask-group {
+    padding-top: 54px;
+    padding-bottom: 54px;
+    box-sizing: border-box;
+  }
+}

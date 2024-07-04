@@ -1,0 +1,43 @@
+.heading-314 {
+  align-self: stretch;
+  position: relative;
+  line-height: 22.5px;
+}
+.check-your-esim,
+.youve-used-at {
+  margin: 0;
+}
+.check-your-esim-container {
+  align-self: stretch;
+  height: 52.8px;
+  position: relative;
+  font-size: 16px;
+  line-height: 135%;
+  font-family: Manrope;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.backgroundshadow1,
+.benefit-headings {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.benefit-headings {
+  padding: 0 0 0.1px;
+  gap: 16px;
+  flex-shrink: 0;
+}
+.backgroundshadow1 {
+  box-shadow: 4px 14px 60px rgba(51, 55, 65, 0.16);
+  border-radius: 16px;
+  background-color: #fff;
+  padding: 29px 30px 29.7px;
+  text-align: left;
+  font-size: 18px;
+  color: #000;
+  font-family: Archivo;
+}

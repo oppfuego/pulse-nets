@@ -1,0 +1,243 @@
+.asia,
+.works-in-europe {
+  margin: 0;
+}
+.and-more-regions,
+.works-in-europe-container {
+  align-self: stretch;
+  position: relative;
+  text-align: left;
+}
+.works-in-europe-container {
+  margin: 0;
+  font-size: 32px;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: Archivo;
+  color: #000;
+}
+.and-more-regions {
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Manrope;
+  color: #555e72;
+}
+.works-in-europe-north-america-parent {
+  width: 752.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  max-width: 100%;
+}
+.link10 {
+  height: 46px;
+  width: 168px;
+}
+.flags,
+.frame-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.frame-container {
+  max-width: 100%;
+}
+.flags {
+  flex-wrap: wrap;
+  min-height: 360px;
+}
+.button {
+  width: 117.1px;
+  height: 40.4px;
+}
+.backgroundshadow,
+.section {
+  display: flex;
+  box-sizing: border-box;
+}
+.backgroundshadow {
+  margin: 0;
+  width: 1080px;
+  box-shadow: 0 10px 60px rgba(4, 22, 67, 0.2);
+  border-radius: 16px;
+  background-color: #fff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 24px;
+  gap: 24px;
+  max-width: calc(100% - 0px);
+  flex-shrink: 0;
+}
+.section {
+  align-self: stretch;
+  height: 674.5px;
+  background-color: #e9eef8;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0 20px 276.1px;
+  max-width: 100%;
+  z-index: 1;
+}
+.manage-your-esim,
+.with-our-intuitive {
+  margin: 0;
+}
+.manage-your-esim-container1 {
+  width: 100%;
+}
+.manage-your-esim-container {
+  margin: 0;
+  width: 327px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.esim-its-packed,
+.have-full-control,
+.keeps-you-up,
+.the-powerful-yet {
+  margin: 0;
+}
+.the-powerful-yet-container {
+  position: relative;
+  font-size: 16px;
+  line-height: 135%;
+  font-family: Manrope;
+  color: #555e72;
+  display: inline-block;
+  max-width: 100%;
+}
+.app-content {
+  width: 486px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px 20px 20px 0;
+  box-sizing: border-box;
+  gap: 24px;
+  min-width: 486px;
+  max-width: 100%;
+}
+.section-device-isometriceed {
+  width: 608px;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  max-width: 100%;
+}
+.app-content-parent {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.section-parent,
+.section1 {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.section1 {
+  background-color: #e9eef8;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  box-sizing: border-box;
+  z-index: 2;
+  margin-top: -178.9px;
+}
+.section-parent {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 32px;
+  color: #000;
+  font-family: Archivo;
+}
+@media screen and (max-width: 1350px) {
+  .frame-container {
+    flex-wrap: wrap;
+  }
+  .section {
+    height: auto;
+  }
+  .app-content {
+    flex: 1;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .section-device-isometriceed {
+    flex: 1;
+  }
+  .app-content-parent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 925px) {
+  .works-in-europe-container {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .backgroundshadow {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .section {
+    padding-bottom: 179px;
+    box-sizing: border-box;
+  }
+  .manage-your-esim-container {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .app-content {
+    min-width: 100%;
+  }
+  .section1 {
+    gap: 32px;
+    padding-bottom: 52px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .works-in-europe-container {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .section {
+    padding-bottom: 116px;
+    box-sizing: border-box;
+  }
+  .manage-your-esim-container {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .section1 {
+    gap: 16px;
+    padding-bottom: 34px;
+    box-sizing: border-box;
+  }
+}

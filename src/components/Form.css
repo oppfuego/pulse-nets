@@ -1,0 +1,23 @@
+.container10,
+.container11,
+.container12 {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 52px;
+  font-family: Manrope;
+  font-size: 16px;
+  color: #000;
+}
+.button1 {
+  width: 87px;
+  height: 46px;
+}
+.form {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 20px;
+}

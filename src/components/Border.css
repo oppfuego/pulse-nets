@@ -1,0 +1,36 @@
+.picture-frwebp {
+  height: 30.5px;
+  width: 40px;
+  position: relative;
+  border-radius: 3px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.france {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 50px;
+}
+.border2,
+.picture-frwebp-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.picture-frwebp-parent {
+  gap: 12px;
+}
+.border2 {
+  width: 220px;
+  border-right: 1px solid #eaebf1;
+  border-bottom: 1px solid #eaebf1;
+  box-sizing: border-box;
+  padding: 29.8px 30px 28px;
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+  font-family: Manrope;
+}

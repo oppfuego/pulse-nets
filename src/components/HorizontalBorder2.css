@@ -1,0 +1,106 @@
+.card-image-icon {
+  height: 27px;
+  width: 42px;
+  position: relative;
+}
+.heading-38 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 29px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 78px;
+}
+.small-361 {
+  position: relative;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  line-height: 110%;
+  text-transform: capitalize;
+  font-family: Manrope;
+  white-space: nowrap;
+}
+.europe-data,
+.europe-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.europe-data {
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+.icon-coveragebc53ed3csvg1 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.coveragenetwork1 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.08em;
+  line-height: 110%;
+  text-transform: capitalize;
+}
+.icon-coveragebc53ed3csvg-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.border3 {
+  width: 191px;
+  border-radius: 50px;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3px 12px;
+  text-align: center;
+  font-size: 14px;
+  font-family: Manrope;
+}
+.europe-rows {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.horizontalborder14 {
+  align-self: stretch;
+  border-bottom: 1px solid #eaebf1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 24px 24px 22px;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Archivo;
+}
+@media screen and (max-width: 925px) {
+  .europe-rows {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading-38 {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}

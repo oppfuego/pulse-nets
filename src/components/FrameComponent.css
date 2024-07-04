@@ -1,0 +1,219 @@
+.heading-23,
+.small-used {
+  position: relative;
+  display: inline-block;
+}
+.heading-23 {
+  margin: 0;
+  font-size: inherit;
+  line-height: 53px;
+  font-weight: 400;
+  font-family: inherit;
+  max-width: 100%;
+}
+.small-used {
+  line-height: 22px;
+  min-width: 55px;
+}
+.div19,
+.strong-5 {
+  position: relative;
+  line-height: 24px;
+}
+.div19 {
+  flex: 1;
+}
+.strong-5 {
+  color: #000;
+  display: inline-block;
+  min-width: 9.1px;
+}
+.review-content,
+.small-used-in-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.review-content {
+  width: 101.3px;
+  justify-content: flex-start;
+  gap: 12px;
+  color: #fad534;
+  font-family: Inter;
+}
+.small-used-in-parent {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: 20px;
+}
+.sitting-in-a,
+.within-seconds,
+.your-service-was {
+  margin: 0;
+}
+.your-service-was-container {
+  align-self: stretch;
+  position: relative;
+  line-height: 135%;
+  color: #000;
+}
+.small-by {
+  position: relative;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  line-height: 110%;
+  text-transform: capitalize;
+}
+.paragraphbackgroundshadow {
+  width: 520px;
+  box-shadow: 0 10px 60px rgba(4, 22, 67, 0.2);
+  border-radius: 16px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 32px 32px 29px;
+  box-sizing: border-box;
+  gap: 16px;
+  max-width: 100%;
+}
+.small-used1 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 55px;
+}
+.div20,
+.strong-51 {
+  position: relative;
+  line-height: 24px;
+}
+.div20 {
+  flex: 1;
+}
+.strong-51 {
+  color: #000;
+  display: inline-block;
+  min-width: 9.1px;
+}
+.parent,
+.small-used-in-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.parent {
+  width: 101.3px;
+  justify-content: flex-start;
+  gap: 12px;
+  color: #fad534;
+  font-family: Inter;
+}
+.small-used-in-group {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: 20px;
+}
+.i-had-a {
+  align-self: stretch;
+  position: relative;
+  line-height: 135%;
+  color: #000;
+}
+.small-by1 {
+  position: relative;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  line-height: 110%;
+  text-transform: capitalize;
+}
+.paragraphbackgroundshadow1 {
+  width: 520px;
+  box-shadow: 0 10px 60px rgba(4, 22, 67, 0.2);
+  border-radius: 16px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 32px 32px 51px;
+  box-sizing: border-box;
+  gap: 16px;
+  max-width: 100%;
+}
+.reviews {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+  font-size: 16px;
+  color: #555e72;
+  font-family: Manrope;
+}
+.link12 {
+  width: 190px;
+  height: 46px;
+}
+.customer-reviews-content {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 48px;
+  max-width: 100%;
+}
+.customer-reviews-content-wrapper {
+  align-self: stretch;
+  background-color: #fff;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 80px 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: 48px;
+  color: #000;
+  font-family: Archivo;
+}
+@media screen and (max-width: 1350px) {
+  .reviews {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 925px) {
+  .heading-23 {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .customer-reviews-content {
+    gap: 24px;
+  }
+  .customer-reviews-content-wrapper {
+    gap: 32px;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading-23 {
+    font-size: 29px;
+    line-height: 32px;
+  }
+  .small-used-in-group,
+  .small-used-in-parent {
+    flex-wrap: wrap;
+  }
+  .customer-reviews-content-wrapper {
+    gap: 16px;
+  }
+}

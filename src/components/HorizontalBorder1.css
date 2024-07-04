@@ -1,0 +1,73 @@
+.data-prices,
+.days,
+.gb,
+.select {
+  position: relative;
+  line-height: 24px;
+  white-space: nowrap;
+}
+.gb {
+  width: 32.2px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.data-prices,
+.days,
+.select {
+  display: inline-block;
+  min-width: 56.3px;
+}
+.data-prices,
+.select {
+  line-height: 22px;
+  min-width: 43px;
+}
+.select {
+  font-size: 16px;
+  font-family: Manrope;
+  color: #000;
+  text-align: center;
+  min-width: 48px;
+}
+.data-details,
+.link13 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.link13 {
+  cursor: pointer;
+  border: 2px solid #000;
+  padding: 3px 12px;
+  background-color: transparent;
+  width: 76px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.link13:hover {
+  background-color: rgba(51, 51, 51, 0.09);
+  border: 2px solid #333;
+  box-sizing: border-box;
+}
+.data-details {
+  align-self: stretch;
+  overflow-x: auto;
+  justify-content: space-between;
+  gap: 20px;
+}
+.horizontalborder15 {
+  align-self: stretch;
+  border-bottom: 1px solid #eaebf1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 15px 29px 13px;
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+  font-family: Manrope;
+}
